@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Serif:ital@0;1&display=swap');
+
+*{
+    background-color: #25252a;
+    color: whitesmoke;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+
+.palavra{
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 20px #1b1b1d, -10px -10px 20px #1b1b1d;
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.word{
+    border-radius: 5px;
+    border-color: rgb(214, 233, 233);
+}

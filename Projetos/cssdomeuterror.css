@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  background-color: ;    
+  color: white;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #278DDB, #E0E300, #E31C17, #960B08); 
+  background-attachment: fixed;   
+}
+
+dd{
+  color: rgb(12, 240, 12);
+}
+
+#caixa2, #caixa1{
+  color: black;
+  text-align: center;
+}
+
+.gradiente{
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(to left, #BB2020, #06111C, #BEC7C7, #FFEB4D, #121317);
+  border-radius: 10px;
+}

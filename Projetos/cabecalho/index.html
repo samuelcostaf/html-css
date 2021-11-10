@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100%;
+        }
+        header{
+            
+            width: 100%;
+            height: 72px;
+            background-image: linear-gradient(to top, #850505, #F20A0A);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 0;
+            box-shadow: 0 5px 20px;
+            border: none;
+
+        }
+        .logoimg{
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            border-radius: 25px;
+        }
+        .container-logo{
+            display: flex;
+            align-items: center;
+        }
+        .logotext{
+            margin-left: 20px;
+            color: whitesmoke;
+        }
+        .menu li{
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .menu li a{
+            color: whitesmoke;
+            font-size: 1.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px 10px;
+            border-radius: 10px;
+        }
+        .menu li a:hover{
+            background-color: #25252a;
+            transition-timing-function: ease;
+            transition-duration: 0.5s;
+            transform: translateX(10px);
+            box-shadow: 2px 2px 20px #25252a, -2px -2px 20px #25252a;
+        }
+        body{
+            background-color: #990706;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-logo">
+            <div class="logoimg"></div>
+            <div class="logotext">
+                <h1>LOGOTIPO</h1>
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#"><i class="fas fa-user-circle"></i>Perfil</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>

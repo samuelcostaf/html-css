@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferentes opções de formatação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Opções Para A Palavra</h1>
+
+    <div class="palavra"></div>
+
+    <div>
+        <h2>Digite a palavra no campo</h2>
+    </div>
+    <button class="btn" onclick="negrito()">Negrito</button>
+    <button class="btn" onclick="italico()">Itálico</button>
+    <button class="btn" onclick="maiusculo()">Maiúsculo</button>
+    <button class="btn" onclick="minusculo()">Minúsculo</button>
+    <script>
+        
+        var txt = prompt('Digite a palavra: ')
+        var mai = txt.toLocaleUpperCase()
+        var min = txt.toLocaleLowerCase()
+        var txtdiv = document.querySelector('div.palavra')
+        txtdiv.innerHTML = `${txt}`
+        function negrito(){
+            txtdiv.innerHTML = `<strong>${txt}</strong>`
+        }
+        function italico(){
+            txtdiv.innerHTML = `<em>${txt}</em>`
+        }
+        function maiusculo(){
+            txtdiv.innerHTML = `${txt.toLocaleUpperCase()}`
+        }
+        function minusculo(){
+            txtdiv.innerHTML = `${txt.toLocaleLowerCase()}`
+        }
+        switch(txt){
+            case 'Hugo':
+                txtdiv.innerHTML = "O mais gato, né"
+                break
+        }
+    </script>
+</body>
+</html>

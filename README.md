@@ -1,2 +1,2 @@
 # html-css
- Curso que atualmente faço
+ Curso de html5 e css3 que ando fazendo
